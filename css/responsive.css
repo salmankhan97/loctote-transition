@@ -1,0 +1,39 @@
+@media(max-width: 1400px)
+{
+	.product .imgholder {
+	    height: 350px;
+	}
+}
+@media(max-width: 1200px)
+{
+	.product .imgholder {
+	    height: 300px;
+	}
+}
+
+@media(max-width: 991px)
+{
+	.discount{
+	    margin-top: 135px;
+	}
+	.userpanel li{
+	    padding-left: 0px;
+	    padding-right: 30px;
+	}
+	.product .imgholder {
+	    height: 230px;
+	}
+
+}
+@media(max-width: 767px)
+{
+	.product .imgholder {
+	    height: 260px;
+	}
+}
+@media(max-width: 575px)
+{
+	.cpy{
+		padding: 0px 10px;
+	}
+}
