@@ -23,6 +23,12 @@
 	.product .imgholder {
 	    height: 230px;
 	}
+	.navbar-collapse {
+	    margin-top: 50px;
+	}
+	.nav-link:hover span{
+		width: 0;
+	}
 
 }
 @media(max-width: 767px)
