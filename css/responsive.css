@@ -1,15 +1,7 @@
 @media(max-width: 1400px)
-{
-	.product .imgholder {
-	    height: 350px;
-	}
-}
+{}
 @media(max-width: 1200px)
-{
-	.product .imgholder {
-	    height: 300px;
-	}
-}
+{}
 
 @media(max-width: 991px)
 {
@@ -20,9 +12,6 @@
 	    padding-left: 15px;
 	    padding-right: 15px;
 	}
-	.product .imgholder {
-	    height: 230px;
-	}
 	.navbar-collapse {
 	    margin-top: 50px;
 	}
@@ -32,11 +21,7 @@
 
 }
 @media(max-width: 767px)
-{
-	.product .imgholder {
-	    height: 260px;
-	}
-}
+{}
 @media(max-width: 575px)
 {
 	.cpy{

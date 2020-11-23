@@ -173,7 +173,7 @@ footer form input{
 .product a{}
 .product a:hover{}
 .product .imgholder{
-	height: 450px;
+	padding-top: 100%;
 	position: relative;
 	overflow: hidden;
 }
