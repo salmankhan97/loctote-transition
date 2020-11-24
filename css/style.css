@@ -44,6 +44,29 @@ span{
     margin-top: 20px;
     margin-bottom: 20px;
 }
+.form-control:focus {
+    box-shadow: 0 0 0 0.25rem #b5625161 !important;
+}
+.topheader{
+	    background: #F3F0EB;
+	    border-bottom: 1px solid black;
+}
+.topheaderhidden div{
+	text-align: center;
+}
+.topheader li{
+	padding-left: 30px;
+}
+.topheaderhidden li{
+	padding: 0px 10px;
+}
+.topheader li a{}
+.topheader li a i, .topheaderhidden i{
+	color: #000;
+}
+.topheader li a:hover i, .topheaderhidden li a:hover i{
+	color: #B56251 !important;
+}
 .navbar-brand{
     margin-right: 0 !important;
     right: 50%;
@@ -88,6 +111,9 @@ nav li a:hover{
 }
 .nav-item{
 	padding: 10px 0px;
+}
+.dropdown-item.active, .dropdown-item:active {
+    background-color: #b562511f !important;
 }
 .discount{
     /*margin-top: 155px;*/
@@ -164,6 +190,26 @@ footer form input{
 .cpy{
 	opacity: 0.8;
 	font-size: 14px;
+}
+.help{
+    position: fixed;
+    left: 15px;
+    bottom: 15px;
+    z-index: 1030;
+}
+.help a{
+    color: #FFF !important;
+    display: inline-block;
+    padding: 10px 20px;
+    background: #1F73B7;
+    border-radius: 60px;
+}
+.help a:hover{
+    color: #FFF !important;
+    background: #B56251;
+}
+.help h6{
+    margin: 0;
 }
 
 .productgrid{

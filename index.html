@@ -15,6 +15,28 @@
   </head>
   <body>
 
+    <section class="topheader d-none d-lg-block py-1">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-12 col-sm-8 text-left">
+            <a href="#"><span class="title">CLICK HERE TO COMPARE BAGS</span></a>
+          </div>
+
+          <div class=" col-12 col-sm-4">
+            <ul class="list-unstyled d-flex m-0  justify-content-end">
+              <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+              <li><a href="#"><i class="fab fa-pinterest-square"></i></i></a></li>
+              <li><a href="#"><i class="fab fa-instagram-square"></i></a></li>
+              <li><a href="#"><i class="fab fa-youtube-square"></i></a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+      
+    </section>
+
     <!-- navbar starts here -->
     <nav class="navbar navbar-expand-lg navbar-light sticky-top justify-content-center py-5">
       <div class="container navcontainerx">
@@ -53,11 +75,42 @@
           </ul>
 
 
-          <ul class="m-0 list-unstyled d-flex userpanel justify-content-center">
+          <ul class="userpanel navbar-nav justify-content-center text-center flex-row">
             <li><a href="#"><i class="fas fa-user"></i></a></li>
-            <li><a href="#"><i class="fas fa-search"></i></a></li>
+            <li class="dropdown">
+              <a id="search" data-toggle="dropdown" aria-expanded="false" href="#"><i class="fas fa-search"></i></a>
+              <ul class="dropdown-menu p-0" aria-labelledby="search">
+                <li class="dropdown-item p-0">
+                  <form aria-labelledby="search">
+                    <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                  </form>
+                </li>
+              </ul>
+            </li>
             <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
           </ul>
+          <hr>  
+
+
+          <div class="container d-lg-none topheaderhidden">
+            <div class="row flex-column justify-content-center">
+
+              <div class="col-12 text-center pb-3">
+                <a href="#"><span class="title">CLICK HERE TO COMPARE BAGS</span></a>
+              </div>
+              <hr>  
+
+              <div class="col-12">
+                <ul class="list-unstyled d-flex m-0  justify-content-center">
+                  <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                  <li><a href="#"><i class="fab fa-pinterest-square"></i></i></a></li>
+                  <li><a href="#"><i class="fab fa-instagram-square"></i></a></li>
+                  <li><a href="#"><i class="fab fa-youtube-square"></i></a></li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
         </div>
 
         <a class="navbar-brand" href="#"><img src="images/LOCTOTE_LOGO_FULL_K_180x@2x.webp"></a>
@@ -86,7 +139,7 @@
     <div class="container productgrid">
       <div class="row align-items-center text-center gy-4">
 
-        <div class="col-6 col-md-4">
+        <div class="col-6 col-md-4 col-xxl-3">
           <a class="product" href="#">
             <div class="imgholder">
               <img src="images/flak-sack-2-heather-grey_900x.jpg" alt="flak-sack-2-heather-grey_900x.jpg">
@@ -95,11 +148,11 @@
               <span class="qv"><h6>Quick view</h6></span>
             </div>
             <span class="title">Flack Sack II</span>
-            <span class="price"><span class="text-decoration-line-through">$169.00 USD</span>$152 USD Save $17.00 USD</span>
+            <span class="price"><span class="text-decoration-line-through">$169.00 USD</span>$152 USD save $17.00 USD</span>
           </a>
         </div>
 
-        <div class="col-6 col-md-4">
+        <div class="col-6 col-md-4 col-xxl-3">
           <a class="product" href="#">
             <div class="imgholder">
               <img src="images/flak-sack-sport-new-vintage-grey-front_720x.jpg" alt="flak-sack-sport-new-vintage-grey-front_720x">
@@ -108,11 +161,11 @@
               <span class="qv"><h6>Quick view</h6></span>
             </div>
             <span class="title">Flack Sack II</span>
-            <span class="price"><span class="text-decoration-line-through">$169.00 USD</span>$152 USD Save $17.00 USD</span>
+            <span class="price"><span class="text-decoration-line-through">$169.00 USD</span>$152 USD save $17.00 USD</span>
           </a>
         </div>
 
-        <div class="col-6 col-md-4">
+        <div class="col-6 col-md-4 col-xxl-3">
           <a class="product" href="#">
             <div class="imgholder">
               <img src="images/1-Sidekick-Loctote-Front_2fa84d15-3179-4436-b1c2-1c8e2c063332_1080x.jpg" alt="1-Sidekick-Loctote-Front_2fa84d15-3179-4436-b1c2-1c8e2c063332_1080x.jpg">
@@ -121,11 +174,11 @@
               <span class="qv"><h6>Quick view</h6></span>
             </div>
             <span class="title">Flack Sack II</span>
-            <span class="price"><span class="text-decoration-line-through">$169.00 USD</span>$152 USD Save $17.00 USD</span>
+            <span class="price"><span class="text-decoration-line-through">$169.00 USD</span>$152 USD save $17.00 USD</span>
           </a>
         </div>
 
-        <div class="col-6 col-md-4">
+        <div class="col-6 col-md-4 col-xxl-3">
           <a class="product" href="#">
             <div class="imgholder">
               <img src="images/11-LOCTOTE-CinchPack-Front_900x.jpg">
@@ -133,11 +186,11 @@
               <span class="qv"><h6>Quick view</h6></span>
             </div>
             <span class="title">Flack Sack II</span>
-            <span class="price"><span class="text-decoration-line-through">$169.00 USD</span>$152 USD Save $17.00 USD</span>
+            <span class="price">$152 USD</span>
           </a>
         </div>
 
-        <div class="col-6 col-md-4">
+        <div class="col-6 col-md-4 col-xxl-3">
           <a class="product" href="#">
             <div class="imgholder">
               <img src="images/GOLD_ORIGINAL_CROW_BLACK_3_756aa359-13f7-4f3e-8a00-11e3e9a382e1_400x.jpg">
@@ -145,11 +198,11 @@
               <span class="qv"><h6>Quick view</h6></span>
             </div>
             <span class="title">Flack Sack II</span>
-            <span class="price"><span class="text-decoration-line-through">$169.00 USD</span>$152 USD Save $17.00 USD</span>
+            <span class="price">$152 USD</span>
           </a>
         </div>
 
-        <div class="col-6 col-md-4">
+        <div class="col-6 col-md-4 col-xxl-3">
           <a class="product" href="#">
             <div class="imgholder">
               <img src="images/GOLD_ORIGINAL_SKINS_5_d38630bc-a16a-4d20-bcbb-14adb236b22b_1728x.jpg">
@@ -157,11 +210,11 @@
               <span class="qv"><h6>Quick view</h6></span>
             </div>
             <span class="title">Flack Sack II</span>
-            <span class="price"><span class="text-decoration-line-through">$169.00 USD</span>$152 USD Save $17.00 USD</span>
+            <span class="price">$152 USD</span>
           </a>
         </div>
 
-        <div class="col-6 col-md-4">
+        <div class="col-6 col-md-4 col-xxl-3">
           <a class="product" href="#">
             <div class="imgholder">
               <img src="images/SILVER_FLEXI-U_13_1728x.jpg">
@@ -169,47 +222,121 @@
               <span class="qv"><h6>Quick view</h6></span>
             </div>
             <span class="title">Flack Sack II</span>
-            <span class="price"><span class="text-decoration-line-through">$169.00 USD</span>$152 USD Save $17.00 USD</span>
+            <span class="price">$152 USD</span>
+          </a>
+        </div>
+
+        <div class="col-6 col-md-4 col-xxl-3">
+          <a class="product" href="#">
+            <div class="imgholder">
+              <img src="images/SILVER_FLEXI-O_15B_1728x.jpg">
+              <img src="images/SILVER_FLEXI-O_4_1728x.jpg" alt="#">
+              <span class="qv"><h6>Quick view</h6></span>
+            </div>
+            <span class="title">Flack Sack II</span>
+            <span class="price">$152 USD</span>
+          </a>
+        </div>
+
+        <div class="col-6 col-md-4 col-xxl-3">
+          <a class="product" href="#">
+            <div class="imgholder">
+              <img src="images/lock-studio-new0_1296x.jpg">
+              <img src="images/lock-studio-new0_1296x.jpg" alt="#">
+              <span class="qv"><h6>Quick view</h6></span>
+            </div>
+            <span class="title">Flack Sack II</span>
+            <span class="price">$152 USD</span>
+          </a>
+        </div>
+
+        <div class="col-6 col-md-4 col-xxl-3">
+          <a class="product" href="#">
+            <div class="imgholder">
+              <img src="images/GOLD_ORIGINAL_SKINS_6_1728x.jpg">
+              <img src="images/GOLD_ORIGINAL_SKINS_5_d38630bc-a16a-4d20-bcbb-14adb236b22b_1728x.jpg" alt="#">
+              <span class="qv"><h6>Quick view</h6></span>
+            </div>
+            <span class="title">Flack Sack II</span>
+            <span class="price">$152 USD</span>
+          </a>
+        </div>
+
+        <div class="col-6 col-md-4 col-xxl-3">
+          <a class="product" href="#">
+            <div class="imgholder">
+              <img src="images/CUT-RESISTANT-ROPES-blue-final_1080x.jpg">
+              <img src="images/ReflectiveBlackRopes_grande_1ced3573-fdb7-4967-a1f5-2de4c4f4ec99_540x.jpg" alt="#">
+              <span class="qv"><h6>Quick view</h6></span>
+            </div>
+            <span class="title">Flack Sack II</span>
+            <span class="price">$152 USD</span>
+          </a>
+        </div>
+
+        <div class="col-6 col-md-4 col-xxl-3">
+          <a class="product" href="#">
+            <div class="imgholder">
+              <img src="images/SILVER_FLEXI_O_WEARABLE_SKINS_3_1728x.jpg">
+              <img src="images/SILVER_FLEXI_O_WEARABLE_SKINS_1_1728x.jpg" alt="#">
+              <span class="qv"><h6>Quick view</h6></span>
+            </div>
+            <span class="title">Flack Sack II</span>
+            <span class="price">$152 USD</span>
+          </a>
+        </div>
+
+        <div class="col-6 col-md-4 col-xxl-3">
+          <a class="product" href="#">
+            <div class="imgholder">
+              <img src="images/GOLD_WEARABLE_SKINS_SMALL_2_1728x.jpg">
+              <img src="images/GOLD_WEARABLE_SKINS_SMALL_ecf0a9b9-4062-4209-b457-174c1440d8e1_1728x.jpg" alt="#">
+              <span class="qv"><h6>Quick view</h6></span>
+            </div>
+            <span class="title">Flack Sack II</span>
+            <span class="price">$152 USD</span>
+          </a>
+        </div>
+
+        <div class="col-6 col-md-4 col-xxl-3">
+          <a class="product" href="#">
+            <div class="imgholder">
+              <img src="images/WRAPSTRAPS_1728x.jpg">
+              <img src="images/WRAPSTRAPS_1728x.jpg" alt="#">
+              <span class="qv"><h6>Quick view</h6></span>
+            </div>
+            <span class="title">Flack Sack II</span>
+            <span class="price">$152 USD</span>
+          </a>
+        </div>
+
+        <div class="col-6 col-md-4 col-xxl-3">
+          <a class="product" href="#">
+            <div class="imgholder">
+              <img src="images/ReflectiveBlackRopes_grande_1ced3573-fdb7-4967-a1f5-2de4c4f4ec99_540x.jpg">
+              <img src="images/flak-sack-longer-ropes_900x.jpg" alt="#">
+              <span class="qv"><h6>Quick view</h6></span>
+            </div>
+            <span class="title">Flack Sack II</span>
+            <span class="price">$152 USD</span>
+          </a>
+        </div>
+
+        <div class="col-6 col-md-4 col-xxl-3">
+          <a class="product" href="#">
+            <div class="imgholder">
+              <img src="images/1-sternum-strap-black-loctote-v2_900x.png">
+              <img src="images/2-sternum-strap-side-black_579514ec-f126-41fc-833a-54f1a0e2bc4e_1728x.png" alt="#">
+              <span class="qv"><h6>Quick view</h6></span>
+            </div>
+            <span class="title">Flack Sack II</span>
+            <span class="price">$152 USD</span>
           </a>
         </div>
 
 
       </div>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     <!-- Footer starts here -->
@@ -265,6 +392,10 @@
       </section>
 
       <p class="cpy text-center">LOCTOTE &copy; 2020 Nolk Enterprise Inc. | LIVE MORE WORRY LESS</p>
+
+      <section class="help">
+        <a href="#"><h6><i class="far fa-question-circle pr-1"></i>Help</h6></a>
+      </section>
     </footer>
 
 
