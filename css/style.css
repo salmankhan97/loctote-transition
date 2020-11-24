@@ -147,6 +147,7 @@ nav li a:hover{
 }
 .banner1 h2{
     padding: 10px;
+    margin: 0;
 }
 .banner1 .btn, .banner6 .btn{
     color: #FFF !important;
@@ -284,4 +285,20 @@ footer form input{
 }
 .product:hover .title{
     color: #B56251 !important;
+}
+.spin{
+    height: 2px;
+    padding: 0;
+    background: #b5625182;
+    animation-name: spin-expand;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-direction: alternate-reverse;
+    width: 100%;
+    display: inline-block;
+    animation-timing-function: linear;
+}
+@keyframes spin-expand{
+    0%{width: 100%}
+    100%{width: 0%}
 }
