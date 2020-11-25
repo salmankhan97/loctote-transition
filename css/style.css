@@ -159,7 +159,7 @@ nav li a:hover{
 }
 
 footer{
-    padding-top: 50px;
+    padding-top: 40px;
     padding-bottom: 10px;
     border-top: 1px solid black;
 }
@@ -169,18 +169,18 @@ footer .row{
 footer ul{
     list-style: none;
 }
-footer ul li{}
+footer ul li{padding-bottom: 10px;}
 footer ul li a{
     text-decoration: none;
     color: black;
     font-size: 15px;
-    line-height: 2;
+    line-height: 1;
     transition-duration: 0.3s;
 }
 footer ul li:first-child{
     font-size: 16px;
     letter-spacing: 1.5px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 footer ul li a:hover{
     color: #B56251 !important;

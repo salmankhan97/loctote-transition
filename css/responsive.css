@@ -30,4 +30,7 @@
 	.cpy{
 		padding: 0px 10px;
 	}
+	footer ul li {
+	     padding-bottom: 5px; 
+	}
 }
